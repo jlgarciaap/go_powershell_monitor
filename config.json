@@ -1,0 +1,18 @@
+{
+    "server" : "serverURL",
+    "port" : "serverPORT",
+    "DB": "DB_NAME",
+    "scripts": [
+        {
+        "name" : "script.ps1",
+        "interval": "25sec"
+        },
+        {
+        "name" : "script.ps1",
+        "interval": "40sec"
+        },
+        {
+        "name":"windows_monitor.ps1",
+        "interval":"15sec"
+        }]
+}
