@@ -84,7 +84,7 @@ func main() {
 
 func initProcess() {
 	//Read configFile
-	path = os.Getenv("ENVIRONMENT_GOPSPATH")
+	path = os.Getenv("GOPSMONPATH")
 
 	config = readJSONConfigFile()
 	//Instantiate clientHTTP
